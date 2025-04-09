@@ -2,12 +2,12 @@
 public record Record(String nameEvent, double price) {
 
     public void ShowInfo() {
-        System.out.println("Evento: " + nameEvent + " | Precio: $" + price);
+        System.out.println("Event: " + nameEvent + " | Price: $" + price);
     }
 
     // Use Record
     public static void main(String[] args) {
-        Record ExtraEntry = new Record("Festival de Jazz", 800.0);
+        Record ExtraEntry = new Record("Jazz Festival", 800.0);
         ExtraEntry.ShowInfo();
     }
 }
